@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400">
+  <!-- Background -->
+  <rect width="600" height="400" fill="#f0f4f8"/>
+  
+  <!-- Title -->
+  <text x="300" y="30" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#2c3e50">Mini Drone Architecture - ESP32</text>
+  
+  <!-- ESP32 MCU (Center) -->
+  <rect x="220" y="140" width="160" height="80" rx="10" fill="#3498db" stroke="#2980b9" stroke-width="2"/>
+  <text x="300" y="175" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="white">ESP32</text>
+  <text x="300" y="195" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="white">MCU</text>
+  
+  <!-- Motor 1 (Top Left) -->
+  <circle cx="100" cy="80" r="35" fill="#e74c3c" stroke="#c0392b" stroke-width="2"/>
+  <text x="100" y="85" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="white">Motor 1</text>
+  <line x1="135" y1="100" x2="220" y2="150" stroke="#7f8c8d" stroke-width="2"/>
+  
+  <!-- Motor 2 (Top Right) -->
+  <circle cx="500" cy="80" r="35" fill="#e74c3c" stroke="#c0392b" stroke-width="2"/>
+  <text x="500" y="85" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="white">Motor 2</text>
+  <line x1="465" y1="100" x2="380" y2="150" stroke="#7f8c8d" stroke-width="2"/>
+  
+  <!-- Motor 3 (Bottom Left) -->
+  <circle cx="100" cy="320" r="35" fill="#e74c3c" stroke="#c0392b" stroke-width="2"/>
+  <text x="100" y="325" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="white">Motor 3</text>
+  <line x1="135" y1="300" x2="220" y2="220" stroke="#7f8c8d" stroke-width="2"/>
+  
+  <!-- Motor 4 (Bottom Right) -->
+  <circle cx="500" cy="320" r="35" fill="#e74c3c" stroke="#c0392b" stroke-width="2"/>
+  <text x="500" y="325" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="white">Motor 4</text>
+  <line x1="465" y1="300" x2="380" y2="220" stroke="#7f8c8d" stroke-width="2"/>
+  
+  <!-- IMU Sensor -->
+  <rect x="250" y="250" width="100" height="40" rx="5" fill="#9b59b6" stroke="#8e44ad" stroke-width="2"/>
+  <text x="300" y="275" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="white">IMU Sensor</text>
+  <line x1="300" y1="250" x2="300" y2="220" stroke="#7f8c8d" stroke-width="2"/>
+  
+  <!-- Battery -->
+  <rect x="420" y="170" width="80" height="30" rx="5" fill="#27ae60" stroke="#1e8449" stroke-width="2"/>
+  <text x="460" y="190" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="white">Battery</text>
+  <line x1="420" y1="185" x2="380" y2="180" stroke="#7f8c8d" stroke-width="2"/>
+  
+  <!-- WiFi/Remote -->
+  <rect x="100" y="165" width="80" height="40" rx="5" fill="#f39c12" stroke="#d68910" stroke-width="2"/>
+  <text x="140" y="190" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="white">WiFi/BLE</text>
+  <line x1="180" y1="185" x2="220" y2="180" stroke="#7f8c8d" stroke-width="2"/>
+  
+  <!-- Legend -->
+  <text x="300" y="380" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#7f8c8d">Quadcopter Mini Drone with ESP32 Microcontroller</text>
+</svg>
